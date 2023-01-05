@@ -8,4 +8,9 @@ export {};
  *  - https://javascript.info/array
  */
 
+function stringToArray(people : string []): string[] {
+
+    const name = people[0]
+    console.log(people)
+}
 console.log(stringToArray(["John Doe"])); // Expected output: ['John', 'Doe']

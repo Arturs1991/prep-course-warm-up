@@ -1,3 +1,4 @@
 export {};
+function truncateString(Codelex : string) {}
 
-console.log(truncateString("CODELEX", 4)); // Expected output: CODE
+console.log(truncateString); // Expected output: CODE

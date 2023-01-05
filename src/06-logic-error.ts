@@ -1,8 +1,8 @@
 export {};
 
-function trimWord(word) {
-  return word.trim;
+function trimWord(word = "  CODELEX ") {
+  return word.trim();
 }
 
-const result = trimWord("  CODELEX ");
+const result = trimWord();
 console.log(result); // Expected output: "CODELEX"
